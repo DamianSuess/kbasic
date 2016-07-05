@@ -1,0 +1,729 @@
+parser_const.o: /home/bernd/kbasic1x/kbc/kbc/parser_const.cpp \
+  /home/bernd/kbasic1x/kbc/kbc/parser.h /usr/include/ctype.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h /usr/include/endian.h \
+  /usr/include/bits/endian.h /usr/include/xlocale.h \
+  /home/bernd/kbasic1x/kbc/kbc/XIntVector.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/typedef.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/define.h ../../kbc/typedef2.h \
+  /usr/include/math.h /usr/include/bits/huge_val.h \
+  /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+  /usr/include/bits/inf.h /usr/include/bits/nan.h \
+  /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+  /usr/include/bits/mathinline.h ../../kbc/../kbshared/define.h \
+  ../../kbc/const.h /home/bernd/kbasic1x/kbc/kbc/../kbshared/pcode.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbshared/typedef.h \
+  ../../kbc/XString.h /home/bernd/kbasic1x/kbc/kbc/../kbshared/console.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/typedef.h /usr/include/stdio.h \
+  /usr/lib/gcc/i586-suse-linux/4.3/include/stddef.h /usr/include/libio.h \
+  /usr/include/_G_config.h /usr/include/wchar.h \
+  /usr/lib/gcc/i586-suse-linux/4.3/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h /usr/include/string.h ../../kbc/XFile.h \
+  ../../kbc/XString.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/pcode_kbasic_binding.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_scrollbar/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_spinbox/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_slider/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_formsview/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_toolbarview/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_svg/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_commandlinkbutton/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_resizebox/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_line/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_checkbox/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_form/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_commandbutton/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_label/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_textbox/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_radiobutton/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_frame/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_combobox/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_listbox/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_datebox/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_timebox/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_datetimebox/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_timer/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_tab/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_image/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_treeview/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_box/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_progressbar/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_editor/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_browser/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_menubaritem/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_toolbaritem/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_menubar/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_forms/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_toolbar/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_strings/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_stringsstrings/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_bits/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_array/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_application/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_mainwindow/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_systemtray/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_err/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_log/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_actions/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_process/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_file/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_dir/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_preferences/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_sounds/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_pixmaps/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_color/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_colors/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_fonts/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_paint/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_control/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_event/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_childcontrol/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_header/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_footer/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_serialport/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_statusbar/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_savedialog/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_colordialog/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_progressdialog/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_inputdialog/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_messagebox/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_fontdialog/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_opendialog/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_cmath/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_movie/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_sound/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_web/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_imagebutton/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_database/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_table/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_query/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_record/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_databasedialog/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_toolbutton/pcode_kbasic_binding_method_id.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_scrollbar/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_spinbox/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_slider/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_formsview/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_toolbarview/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_svg/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_commandlinkbutton/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_resizebox/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_line/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_checkbox/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_form/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_commandbutton/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_label/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_textbox/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_radiobutton/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_frame/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_combobox/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_listbox/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_datebox/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_timebox/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_datetimebox/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_timer/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_tab/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_image/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_treeview/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_box/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_progressbar/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_editor/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_browser/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_menubaritem/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_toolbaritem/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_menubar/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_forms/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_toolbar/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_strings/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_stringsstrings/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_bits/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_array/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_application/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_mainwindow/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_systemtray/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_err/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_log/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_actions/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_process/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_file/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_dir/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_preferences/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_sounds/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_pixmaps/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_color/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_colors/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_fonts/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_paint/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_control/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_event/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_childcontrol/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_header/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_footer/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_serialport/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_statusbar/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_savedialog/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_fontdialog/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_colordialog/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_progressdialog/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_inputdialog/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_messagebox/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_opendialog/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_cmath/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_movie/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_sound/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_web/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_imagebutton/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_database/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_table/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_query/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_record/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_databasedialog/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_toolbutton/pcode_kbasic_binding_method_name.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/bytearray.h \
+  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
+  /usr/include/time.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/pcode_kbasic_binding.h \
+  /home/bernd/kbasic1x/kbc/kbc/token.h \
+  /home/bernd/kbasic1x/kbc/kbc/XString.h \
+  /home/bernd/kbasic1x/kbc/kbc/utility.h /usr/include/fcntl.h \
+  /usr/include/bits/fcntl.h /usr/include/bits/uio.h \
+  /usr/include/sys/stat.h /usr/include/bits/stat.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/console.h \
+  /home/bernd/kbasic1x/kbc/kbc/../kbshared/bytearray.h \
+  /home/bernd/kbasic1x/kbc/kbc/memory_variable.h \
+  /home/bernd/kbasic1x/kbc/kbc/XIntMap.h \
+  /home/bernd/kbasic1x/kbc/kbc/memory_type.h ../../kbc/XIntMap.h \
+  /home/bernd/kbasic1x/kbc/kbc/const.h ../../kbc/XIntVector.h \
+  /home/bernd/kbasic1x/kbc/kbc/memory_label.h \
+  /home/bernd/kbasic1x/kbc/kbc/memory_stringliteral.h \
+  /home/bernd/kbasic1x/kbc/kbc/memory_const.h \
+  /home/bernd/kbasic1x/kbc/kbc/memory_enum.h \
+  /home/bernd/kbasic1x/kbc/kbc/memory_sub.h \
+  /home/bernd/kbasic1x/kbc/kbc/memory_class.h \
+  /home/bernd/kbasic1x/kbc/kbc/memory_module.h \
+  /home/bernd/kbasic1x/kbc/kbc/scanner.h /usr/include/errno.h \
+  /usr/include/bits/errno.h /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/lib/gcc/i586-suse-linux/4.3/include-fixed/limits.h \
+  /usr/lib/gcc/i586-suse-linux/4.3/include-fixed/syslimits.h \
+  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h
+
+/home/bernd/kbasic1x/kbc/kbc/parser.h:
+
+/usr/include/ctype.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-32.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/xlocale.h:
+
+/home/bernd/kbasic1x/kbc/kbc/XIntVector.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/typedef.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/define.h:
+
+../../kbc/typedef2.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+../../kbc/../kbshared/define.h:
+
+../../kbc/const.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/pcode.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbshared/typedef.h:
+
+../../kbc/XString.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/console.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/typedef.h:
+
+/usr/include/stdio.h:
+
+/usr/lib/gcc/i586-suse-linux/4.3/include/stddef.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/i586-suse-linux/4.3/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/string.h:
+
+../../kbc/XFile.h:
+
+../../kbc/XString.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/pcode_kbasic_binding.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_scrollbar/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_spinbox/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_slider/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_formsview/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_toolbarview/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_svg/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_commandlinkbutton/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_resizebox/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_line/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_checkbox/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_form/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_commandbutton/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_label/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_textbox/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_radiobutton/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_frame/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_combobox/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_listbox/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_datebox/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_timebox/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_datetimebox/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_timer/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_tab/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_image/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_treeview/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_box/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_progressbar/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_editor/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_browser/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_menubaritem/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_toolbaritem/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_menubar/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_forms/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_toolbar/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_strings/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_stringsstrings/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_bits/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_array/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_application/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_mainwindow/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_systemtray/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_err/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_log/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_actions/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_process/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_file/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_dir/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_preferences/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_sounds/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_pixmaps/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_color/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_colors/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_fonts/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_paint/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_control/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_event/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_childcontrol/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_header/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_footer/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_serialport/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_statusbar/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_savedialog/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_colordialog/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_progressdialog/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_inputdialog/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_messagebox/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_fontdialog/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_opendialog/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_cmath/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_movie/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_sound/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_web/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_imagebutton/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_database/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_table/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_query/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_record/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_databasedialog/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_toolbutton/pcode_kbasic_binding_method_id.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_scrollbar/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_spinbox/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_slider/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_formsview/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_toolbarview/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_svg/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_commandlinkbutton/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_resizebox/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_line/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_checkbox/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_form/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_commandbutton/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_label/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_textbox/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_radiobutton/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_frame/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_combobox/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_listbox/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_datebox/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_timebox/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_datetimebox/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_timer/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_tab/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_image/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_treeview/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_box/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_progressbar/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_editor/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_browser/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_menubaritem/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_toolbaritem/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_menubar/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_forms/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_toolbar/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_strings/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_stringsstrings/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_bits/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_array/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_application/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_mainwindow/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_systemtray/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_err/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_log/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_actions/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_process/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_file/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_dir/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_preferences/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_sounds/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_pixmaps/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_color/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_colors/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_fonts/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_paint/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_control/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_event/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_childcontrol/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_header/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_footer/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_serialport/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_statusbar/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_savedialog/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_fontdialog/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_colordialog/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_progressdialog/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_inputdialog/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_messagebox/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_opendialog/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_cmath/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_movie/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_sound/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_web/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_imagebutton/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_database/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_table/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_query/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_record/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_databasedialog/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/../kbasic_binding/_toolbutton/pcode_kbasic_binding_method_name.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/bytearray.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/pcode_kbasic_binding.h:
+
+/home/bernd/kbasic1x/kbc/kbc/token.h:
+
+/home/bernd/kbasic1x/kbc/kbc/XString.h:
+
+/home/bernd/kbasic1x/kbc/kbc/utility.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/bits/fcntl.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/sys/stat.h:
+
+/usr/include/bits/stat.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/console.h:
+
+/home/bernd/kbasic1x/kbc/kbc/../kbshared/bytearray.h:
+
+/home/bernd/kbasic1x/kbc/kbc/memory_variable.h:
+
+/home/bernd/kbasic1x/kbc/kbc/XIntMap.h:
+
+/home/bernd/kbasic1x/kbc/kbc/memory_type.h:
+
+../../kbc/XIntMap.h:
+
+/home/bernd/kbasic1x/kbc/kbc/const.h:
+
+../../kbc/XIntVector.h:
+
+/home/bernd/kbasic1x/kbc/kbc/memory_label.h:
+
+/home/bernd/kbasic1x/kbc/kbc/memory_stringliteral.h:
+
+/home/bernd/kbasic1x/kbc/kbc/memory_const.h:
+
+/home/bernd/kbasic1x/kbc/kbc/memory_enum.h:
+
+/home/bernd/kbasic1x/kbc/kbc/memory_sub.h:
+
+/home/bernd/kbasic1x/kbc/kbc/memory_class.h:
+
+/home/bernd/kbasic1x/kbc/kbc/memory_module.h:
+
+/home/bernd/kbasic1x/kbc/kbc/scanner.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/lib/gcc/i586-suse-linux/4.3/include-fixed/limits.h:
+
+/usr/lib/gcc/i586-suse-linux/4.3/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:

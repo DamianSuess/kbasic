@@ -1,0 +1,32 @@
+static const int pcode___color___color = pcode___color * SPACE;
+/*
+static const int pcode___color__METHOD_SetRGBA = pcode___color___color + 1;
+static const int pcode___color__METHOD_RGBA = pcode___color__METHOD_SetRGBA + 1;
+static const int pcode___color__SETPROPERTY_R = pcode___color__METHOD_RGBA + 1;
+static const int pcode___color__GETPROPERTY_R = pcode___color__SETPROPERTY_R + 1;
+static const int pcode___color__SETPROPERTY_G = pcode___color__GETPROPERTY_R + 1;
+static const int pcode___color__GETPROPERTY_G = pcode___color__SETPROPERTY_G + 1;
+static const int pcode___color__SETPROPERTY_B = pcode___color__GETPROPERTY_G + 1;
+static const int pcode___color__GETPROPERTY_B = pcode___color__SETPROPERTY_B + 1;
+static const int pcode___color__SETPROPERTY_A = pcode___color__GETPROPERTY_B + 1;
+static const int pcode___color__GETPROPERTY_A = pcode___color__SETPROPERTY_A + 1;
+*/
+static const int pcode___color__GETPROPERTY_White = pcode___color___color + 1;
+static const int pcode___color__GETPROPERTY_Black = pcode___color__GETPROPERTY_White + 1;
+static const int pcode___color__GETPROPERTY_Red = pcode___color__GETPROPERTY_Black + 1;
+static const int pcode___color__GETPROPERTY_DarkRed = pcode___color__GETPROPERTY_Red + 1;
+static const int pcode___color__GETPROPERTY_Green = pcode___color__GETPROPERTY_DarkRed + 1;
+static const int pcode___color__GETPROPERTY_Blue = pcode___color__GETPROPERTY_Green + 1;
+static const int pcode___color__GETPROPERTY_DarkBlue = pcode___color__GETPROPERTY_Blue + 1;
+static const int pcode___color__GETPROPERTY_Cyan = pcode___color__GETPROPERTY_DarkBlue + 1;
+static const int pcode___color__GETPROPERTY_DarkCyan = pcode___color__GETPROPERTY_Cyan + 1;
+static const int pcode___color__GETPROPERTY_Magenta = pcode___color__GETPROPERTY_DarkCyan + 1;
+static const int pcode___color__GETPROPERTY_DarkMagenta = pcode___color__GETPROPERTY_Magenta + 1;
+static const int pcode___color__GETPROPERTY_Yellow = pcode___color__GETPROPERTY_DarkMagenta + 1;
+static const int pcode___color__GETPROPERTY_DarkYellow = pcode___color__GETPROPERTY_Yellow + 1;
+static const int pcode___color__GETPROPERTY_Gray = pcode___color__GETPROPERTY_DarkYellow + 1;
+static const int pcode___color__GETPROPERTY_DarkGray = pcode___color__GETPROPERTY_Gray + 1;
+static const int pcode___color__GETPROPERTY_LightGray = pcode___color__GETPROPERTY_DarkGray + 1;
+static const int pcode___color__GETPROPERTY_Color0 = pcode___color__GETPROPERTY_LightGray + 1;
+static const int pcode___color__GETPROPERTY_Color1 = pcode___color__GETPROPERTY_Color0 + 1;
+static const int pcode___color__GETPROPERTY_Transparent = pcode___color__GETPROPERTY_Color1 + 1;

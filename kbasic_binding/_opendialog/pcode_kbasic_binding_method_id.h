@@ -1,0 +1,9 @@
+static const int pcode___opendialog___opendialog = pcode___opendialog * SPACE;
+static const int pcode___opendialog__METHOD_GetFile = pcode___opendialog___opendialog + 1;
+static const int pcode___opendialog__METHOD_GetFile1 = pcode___opendialog__METHOD_GetFile + 1;
+static const int pcode___opendialog__METHOD_GetFiles = pcode___opendialog__METHOD_GetFile1 + 1;
+static const int pcode___opendialog__METHOD_GetFiles1 = pcode___opendialog__METHOD_GetFiles + 1;
+static const int pcode___opendialog__METHOD_GetDirectory = pcode___opendialog__METHOD_GetFiles1 + 1;
+static const int pcode___opendialog__METHOD_GetDirectory1 = pcode___opendialog__METHOD_GetDirectory + 1;
+static const int pcode___opendialog__METHOD_SetMode = pcode___opendialog__METHOD_GetDirectory1 + 1;
+static const int pcode___opendialog__METHOD_SetOption = pcode___opendialog__METHOD_SetMode + 1;

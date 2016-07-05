@@ -1,0 +1,13 @@
+static const int pcode___bits___bits = pcode___bits * SPACE;
+static const int pcode___bits__METHOD_SetByte = pcode___bits___bits + 1;
+static const int pcode___bits__METHOD_SetShort = pcode___bits__METHOD_SetByte + 1;
+static const int pcode___bits__METHOD_SetInteger = pcode___bits__METHOD_SetShort + 1;
+static const int pcode___bits__METHOD_SetLong = pcode___bits__METHOD_SetInteger + 1;
+static const int pcode___bits__METHOD_Byte = pcode___bits__METHOD_SetLong + 1;
+static const int pcode___bits__METHOD_Short = pcode___bits__METHOD_Byte + 1;
+static const int pcode___bits__METHOD_Integer = pcode___bits__METHOD_Short + 1;
+static const int pcode___bits__METHOD_Long = pcode___bits__METHOD_Integer + 1;
+static const int pcode___bits__METHOD_SetBit = pcode___bits__METHOD_Long + 1;
+static const int pcode___bits__METHOD_Bit = pcode___bits__METHOD_SetBit + 1;
+static const int pcode___bits__METHOD_TestBit = pcode___bits__METHOD_Bit + 1;
+static const int pcode___bits__METHOD_ToogleBit = pcode___bits__METHOD_TestBit + 1;

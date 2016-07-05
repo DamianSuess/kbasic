@@ -1,0 +1,10 @@
+static const int pcode___statusbar___statusbar = pcode___statusbar * SPACE;
+static const int pcode___statusbar__METHOD_Clear = pcode___statusbar___statusbar + 1;
+static const int pcode___statusbar__METHOD_Remove = pcode___statusbar__METHOD_Clear + 1;
+static const int pcode___statusbar__METHOD_InsertControl = pcode___statusbar__METHOD_Remove + 1;
+static const int pcode___statusbar__METHOD_InsertControl1 = pcode___statusbar__METHOD_InsertControl + 1;
+static const int pcode___statusbar__METHOD_Print = pcode___statusbar__METHOD_InsertControl1 + 1;
+static const int pcode___statusbar__METHOD_Print1 = pcode___statusbar__METHOD_Print + 1;
+static const int pcode___statusbar__METHOD_Open = pcode___statusbar__METHOD_Print1 + 1;
+static const int pcode___statusbar__METHOD_Close = pcode___statusbar__METHOD_Open + 1;
+static const int pcode___statusbar__METHOD_Toggle = pcode___statusbar__METHOD_Close + 1;

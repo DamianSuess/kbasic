@@ -1,0 +1,5 @@
+XDir.o:  \
+ /home/bernd/kbasic_release/kbasic_linux_sourcecode/kbc/kbc/XDir.cpp \
+  /home/bernd/kbasic_release/kbasic_linux_sourcecode/kbc/kbc/XDir.h
+
+/home/bernd/kbasic_release/kbasic_linux_sourcecode/kbc/kbc/XDir.h:

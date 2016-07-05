@@ -1,0 +1,21 @@
+static const int pcode___stringsstrings___stringsstrings = pcode___stringsstrings * SPACE;
+static const int pcode___stringsstrings__METHOD_Len = pcode___stringsstrings___stringsstrings + 1;
+static const int pcode___stringsstrings__METHOD_Append = pcode___stringsstrings__METHOD_Len + 1;
+static const int pcode___stringsstrings__METHOD_Get = pcode___stringsstrings__METHOD_Append + 1;
+static const int pcode___stringsstrings__METHOD_Set = pcode___stringsstrings__METHOD_Get + 1;
+static const int pcode___stringsstrings__FOR = pcode___stringsstrings__METHOD_Set + 1;
+static const int pcode___stringsstrings__EACH = pcode___stringsstrings__FOR + 1;
+static const int pcode___stringsstrings__GET = pcode___stringsstrings__EACH + 1;
+static const int pcode___stringsstrings__SET = pcode___stringsstrings__GET + 1;
+static const int pcode___stringsstrings__METHOD_RemoveAll = pcode___stringsstrings__SET + 1;
+static const int pcode___stringsstrings__METHOD_Remove = pcode___stringsstrings__METHOD_RemoveAll + 1;
+static const int pcode___stringsstrings__METHOD_Insert = pcode___stringsstrings__METHOD_Remove + 1;
+
+static const int pcode___stringsstrings__METHOD_Contains = pcode___stringsstrings__METHOD_Insert + 1;
+static const int pcode___stringsstrings__METHOD_ReadBinary = pcode___stringsstrings__METHOD_Contains + 1;
+static const int pcode___stringsstrings__METHOD_WriteBinary = pcode___stringsstrings__METHOD_ReadBinary + 1;
+static const int pcode___stringsstrings__METHOD_Keys = pcode___stringsstrings__METHOD_WriteBinary + 1;
+static const int pcode___stringsstrings__METHOD_Values = pcode___stringsstrings__METHOD_Keys + 1;
+static const int pcode___stringsstrings__METHOD_Replace = pcode___stringsstrings__METHOD_Values + 1;
+static const int pcode___stringsstrings__METHOD_Key = pcode___stringsstrings__METHOD_Replace + 1;
+static const int pcode___stringsstrings__METHOD_Value = pcode___stringsstrings__METHOD_Key + 1;
